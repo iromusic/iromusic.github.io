@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IROMUSIC</title>
+    <style>
+        body {
+            background: #2a303b;
+        }
+    </style>
+</head>
+<body>
+<script>
+    window.onload = function () {
+        if (getPlatform() !== 'windows') {
+            fetch('/version.json?time=' + Date.now().toLocaleString())
+                .then(response => {
+                    if (!response.success) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    window.location = data.location;
+                })
+                .catch(error => {
+                    window.location = 'https://iro.mobi/app';
+                });
+        }
+    }
+
+    function getPlatform() {
+        const platform = navigator.platform;
+        switch (platform) {
+            case 'MacIntel':
+            case 'MacPPC':
+                return 'mac';
+            case 'Win32':
+            case 'Win64':
+                return 'windows';
+            case 'Linux i686':
+            case 'Linux x86_64':
+                return 'linux';
+            case 'Android':
+                return 'android';
+            case 'iPad':
+                return 'ipad';
+            case 'iPhone':
+                return 'iphone';
+            case 'iPod':
+                return 'ipod';
+            default:
+                return '';
+        }
+    }
+
+</script>
+</body>
+</html>
