@@ -41,10 +41,9 @@
     <meta name="twitter:description"
           content="Iromusic app download for Android APK, iOS, Windows, macOS, Linux and Web.">
     <meta name="twitter:image" content="https://iromusic.github.io/favicon.iconset/icon_512x512.png">
+	<link href="style.css" rel="stylesheet" fetchpriority="auto">
     <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet">
-    <link href="style.css"
-          rel="stylesheet">
+          rel="stylesheet" fetchpriority="auto">
 	<meta name="google-site-verification" content="gBzfijQ6AmLHzrt3xWjVBgiXOT-EV0hqN2oSwiwbx3s" />
 </head>
 <body>
@@ -53,7 +52,7 @@
     <!-- App Section -->
     <div class="app-section">
         <div class="app-logo">
-            <img width="128" height="128" alt="IROMUSIC Logo" src="favicon.svg">
+            <img width="128" height="128" alt="IROMUSIC Logo" src="favicon.svg" fetchpriority="high" decoding="async">
         </div>
         <h1 class="app-title">IROMUSIC</h1>
         <p class="app-subtitle">
@@ -68,10 +67,10 @@
 
         <div style="text-align: center; padding: 10px">
             <a href="https://t.me/Iromusic_club" title="Join to Iromusic Telegram channel">
-                <img width="32" height="32" alt="Join to Iromusic Telegram channel" src="socials/telegram.svg">
+                <img width="32" height="32" alt="Join to Iromusic Telegram channel" src="socials/telegram.svg" fetchpriority="low" loading="lazy" decoding="async">
             </a>
             <a href="https://www.instagram.com/iranmood" title="Follow Iromusic on Instagram">
-                <img width="32" height="32" alt="Follow Iromusic on Instagram" src="socials/instagram.svg">
+                <img width="32" height="32" alt="Follow Iromusic on Instagram" src="socials/instagram.svg" fetchpriority="low" loading="lazy" decoding="async">
             </a>
         </div>
 
@@ -570,7 +569,7 @@
 
 </div>
 
-<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="app.js" fetchpriority="high"></script>
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
