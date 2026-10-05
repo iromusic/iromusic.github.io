@@ -1,0 +1,32 @@
+# iromusic.github.io: official GitHub Pages mirror of IROMUSIC (آیروموزیک).
+# Every page may be crawled, by search engines and AI assistants alike.
+# A plain-text summary for language models: https://iromusic.github.io/llms.txt
+
+User-agent: *
+Allow: /
+Disallow: /*.json$
+
+# AI crawlers and assistants, listed so the intent is explicit: all allowed.
+# (A crawler that finds its own group ignores the * group, so the group repeats the rules.)
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: Amazonbot
+User-agent: meta-externalagent
+User-agent: DuckAssistBot
+User-agent: cohere-ai
+Allow: /
+Disallow: /*.json$
+
+Sitemap: https://iromusic.github.io/sitemap.xml

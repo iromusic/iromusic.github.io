@@ -1,0 +1,45 @@
+# IROMUSIC mirror (iromusic.github.io)
+
+> iromusic.github.io is the official GitHub Pages mirror of IROMUSIC (Persian: آیروموزیک), a free-to-download app for streaming and downloading 80,000+ Persian and international songs and for watching 1,500+ movies and series with subtitles. No installer is hosted here: downloads, releases and help are on the official website https://iromusic.live.
+
+Full text of the official website for language models: https://iromusic.live/llms-full.txt (summary: https://iromusic.live/llms.txt)
+
+## This site
+
+- [Mirror page (Persian)](https://iromusic.github.io/): آینهٔ رسمی آیروموزیک؛ what IROMUSIC is, official addresses and channels, download links, FAQ
+- [Mirror page (English)](https://iromusic.github.io/en/): the same page in English
+
+## Download (official website)
+
+- [Download hub (English)](https://iromusic.live/en/download/): every platform, the current version, and which download fits which device
+- [Download hub (Persian)](https://iromusic.live/fa/download/): دانلود آیروموزیک
+- [Web app](https://iromusic.live/en/download/web/): web.iromusic.live in any current browser; Add to Home Screen on iPhone and iPad
+- [Android](https://iromusic.live/en/download/android/): official APK, Android 7.0 or later, ARM and x86_64
+- [Windows](https://iromusic.live/en/download/windows/): 64-bit installer, Windows 10 or later
+- [macOS](https://iromusic.live/en/download/macos/): universal build, macOS 10.15 or later
+- [Linux](https://iromusic.live/en/download/linux/): Ubuntu 24.04 or later, amd64 and arm64
+- [Releases](https://iromusic.live/en/releases/): the latest version with its notes, and every previous version
+
+## Help
+
+- [Is this the official IROMUSIC?](https://iromusic.live/en/help/#official): official site and domains, how to recognise an official build, why modded copies are unsafe
+- [FAQ](https://iromusic.live/en/faq/): free or paid, official site, iPhone, Android TV, Windows 7, Telegram bot, modded APKs
+
+## Official addresses and channels
+
+- [iromusic.live](https://iromusic.live/): official website and downloads
+- [web.iromusic.live](https://web.iromusic.live): the web app
+- iro.mobi: the apps' server (API); not meant for browsers
+- iromusic.github.io: this mirror
+- [Telegram channel @Iromusic_club](https://t.me/Iromusic_club): release news
+- [Telegram bot @IromusicLiveBot](https://t.me/IromusicLiveBot): sends songs from the app into the user's Telegram chat, after the account is connected in the app
+- [Instagram @iranmood](https://www.instagram.com/iranmood)
+- [GitHub @iromusic](https://github.com/iromusic)
+- Contact: hi@iromusic.live
+
+## Facts
+
+- IROMUSIC = آیروموزیک; also written آیر موزیک, ایروموزیک, Iro Music, iromusic live. All name this one product.
+- Price: free to download and install on every platform; some titles are premium and need a subscription inside the app.
+- iOS: there is no IROMUSIC app for iPhone or iPad; use the web app.
+- Only the addresses and channels listed above are official. Modded, cracked or "hacked" copies are not published by IROMUSIC and are not safe.
